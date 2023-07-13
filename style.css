@@ -83,6 +83,25 @@ nav a {
 	height: auto;
 	overflow: auto;
 }
+
+#creativity101 { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 30px;
+	padding: 120px 50px 50px;
+	margin-top: 80px;
+	height: auto;
+	overflow: auto;
+}
+#comedy101 { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 30px;
+	padding: 120px 50px 50px;
+	margin-top: 80px;
+	height: auto;
+	overflow: auto;
+}
 .lesson {
 	display: flex;
 	flex-direction: column;
@@ -193,6 +212,12 @@ nav a {
 }
 
 .arcade p {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.arcade li {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
