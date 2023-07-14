@@ -74,7 +74,7 @@ nav a {
 
 /* Main Styles */
 
-#arcade, #creativity101, #comedy101, #comedy102 {
+#arcade, #creativit101, #comedy101, #comedy102 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 30px;
@@ -84,6 +84,24 @@ nav a {
 	overflow: auto;
 }
 
+#creativity101 { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 30px;
+	padding: 120px 50px 50px;
+	margin-top: 80px;
+	height: auto;
+	overflow: auto;
+}
+#comedy101 { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 30px;
+	padding: 120px 50px 50px;
+	margin-top: 80px;
+	height: auto;
+	overflow: auto;
+}
 .lesson {
 	display: flex;
 	flex-direction: column;
