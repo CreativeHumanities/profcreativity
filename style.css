@@ -36,6 +36,8 @@ nav ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+     font-size: 16px;
+	margin-bottom: 20px;
 }
 
 nav li {
@@ -74,7 +76,7 @@ nav a {
 
 /* Main Styles */
 
-#arcade, #creativity101, #comedy101, #comedy102 {
+#hello, #arcade, #creativity101, #comedy101, #comedy102 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 30px;
@@ -110,6 +112,7 @@ nav a {
 	padding: 10px 20px;
 	margin-top: 20px;
 	border-radius: 5px;
+	text-align: centre;
 	text-decoration: none;
 }
 
@@ -198,12 +201,15 @@ nav a {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 500px;
+  font-size: 16px;
 }
 .arcade li {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 500px;
+  font-size: 16px;
+
 }
 
 .game-description {
